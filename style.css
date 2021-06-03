@@ -10,17 +10,23 @@
 #searchbar {
     
     display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 650px;
     margin-top: 30px;
-    width: 600px;
+    width: 500px;
     height: 48px;
     border-radius: 25px;
-    padding: 0px;
-    color: gray;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: black;
     border-width: 1px;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 1px;
+    outline: none;
+
 }
+
 
 .topnav {
     display: inline-block;
@@ -93,4 +99,13 @@ text-decoration: underline;
 
 #SignIn:hover {
     background-color:rgb(50, 127, 226)
+}
+
+#SearchIcon {
+    display: inline-block;
+    position: absolute;
+    left: 675px;
+    margin-top: 45px;
+    z-index: 2;
+
 }
