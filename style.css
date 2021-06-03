@@ -109,3 +109,27 @@ text-decoration: underline;
     z-index: 2;
 
 }
+
+.searchbutton {
+
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
+    width: 127px;
+    height:  36px;
+    background-color:rgb(245, 245, 245);
+    border-radius: 5px;
+    left: 820px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    border: rgb(254, 255, 255);
+    cursor: pointer;
+
+}
+
+.searchbutton:hover {
+    outline: gray;
+    outline-width: 10px;
+
+}
