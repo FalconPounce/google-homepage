@@ -133,3 +133,48 @@ text-decoration: underline;
     outline-width: 10px;
 
 }
+
+.underButton {
+    
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 880px;
+    font-size: 12px;
+
+}
+
+#Deutsch {
+    
+    display: inline-block;
+    color: blue;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+#Deutsch:hover {
+
+    text-decoration: underline;
+
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    bottom: 0px;
+    height: 46px;
+    color: black;
+}
+
+.leftfoot {
+
+    display: inline-block;
+    color: red;
+    position: static;
+    font-size: 18px;
+    padding: 15px;
+    font-family: Arial;
+    
+}
